@@ -1,0 +1,20 @@
+Create - POST http://localhost:3333/points/
+{
+    "name": "XXX",
+    "city": "XXX",
+    "state": "XX",
+    "reference": "XXXX",
+    "description": "XXXXXX"
+}
+
+Show - GET http://localhost:3333/points/
+Sem body
+
+searchByName - GET http://localhost:3333/points/XXX
+{
+    "name": "XXX",
+    "city": "XXX",
+    "state": "XX",
+    "reference": "XXXX",
+    "description": "XXXXXX"
+}
